@@ -40,7 +40,6 @@ export default async function handler(
           quantity,
         },
       ],
-
       success_url: `${req.headers.origin}/thank-you`,
       cancel_url: `${req.headers.origin}/cancel`,
     });
@@ -53,7 +52,7 @@ export default async function handler(
 
     return res.status(500).json({ message: "Something went wrong" });
   } catch (e) {
-    console.error("Error creating session" + e);
+    console.error("Error creating session " + e);
     return res.status(500).json({ message: "Something went wrong" });
   }
 }
