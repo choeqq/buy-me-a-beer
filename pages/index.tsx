@@ -45,7 +45,7 @@ export default function Home({ donations }: { donations: Record[] }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex max-w-2xl m-auto">
+      <main className="flex max-w-2xl m-auto gap-20">
         <div className="flex-1">
           <h2>Previous donations</h2>
           {donations.map((donation) => (
