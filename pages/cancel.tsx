@@ -5,8 +5,8 @@ export default function Cancel() {
   return (
     <div>
       <Head>
-        <title>TomDoesTech</title>
-        <meta name="description" content="TomDoesTech" />
+        <title>Cancel</title>
+        <meta name="description" content="Kacper" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -6,7 +6,7 @@ export default function ThankYou() {
     <div>
       <Head>
         <title>Thank You</title>
-        <meta name="description" content="TomDoesTech" />
+        <meta name="description" content="Kacper" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
